@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bargain Beacon — Black Friday deals</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <p class="brand"><a href="#/">Bargain Beacon</a></p>
+  <p class="tagline">Real Black Friday &amp; Cyber Monday deals, checked 27 Nov 2026 — 56 deals, 9 stores, 16 categories.</p>
+</header>
+<section class="controls" aria-label="Find a deal">
+  <label>Search <input id="q" type="search" placeholder="Try headphones or Dyson" autocomplete="off"></label>
+  <label>Category <select id="category"><option value="All">All categories</option></select></label>
+  <label>Store <select id="store"><option value="All">All stores</option></select></label>
+  <label>At least <select id="min"><option value="0">any discount</option><option value="25">25% off</option><option value="40">40% off</option><option value="50">50% off</option></select></label>
+  <label>Sort <select id="sort"><option value="newlow">New lows first</option><option value="discount">Biggest discount first</option><option value="saving">Most dollars saved</option><option value="price">Lowest price first</option></select></label>
+</section>
+<main id="app"></main>
+<footer>
+  <p>How this board was built: every price on it was read by the maker on 27 Nov 2026, either at the store or in a deals source that names the store. Each deal shows when its price was checked and where it was read, plus an honest call on whether it is really a deal — a new low, a strong price, a routine sale, or an inflated one. Prices can change and stock can run out; check the store page before you buy. All prices in USD. Links go out to the stores.</p>
+</footer>
+</body>
+</html>
